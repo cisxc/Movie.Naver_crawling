@@ -27,15 +27,15 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 
 * 겨울왕국은 빈도수가 앞도적으로 높아 같이 분석을 할 수 없었다.
 
-![Alt text](/img/movie_gragh.JPG =250x250)
+![Alt text](/img/movie_gragh.JPG)
 
 <h3> 1.2. 영화 단어 클라우드 </h3>
 
-![Alt text](/img/Movie_freg.JPG =250x250)
+![Alt text](/img/Movie_freg.JPG)
 
 <h3> 1.3. 전체 영화 댓글 단어클라우드(단어수 > 3개상)  </h3>
 
-![Alt text](/img/Movie_issue.JPG =250x250)
+![Alt text](/img/Movie_issue.JPG)
 
  ****
 
@@ -43,16 +43,16 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 
 <h3> 2.1. 겨울왕국 단어클라우드(단어수 > 3개)  </h3>
 
-![Alt text](/img/frozen_issue.JPG =250x250)
+![Alt text](/img/frozen_issue.JPG)
 
 <h3> 2.2. 조커 단어클라우드(단어수 > 3개)  </h3>
 
-![Alt text](/img/Joker_issue.JPG =250x250)
+![Alt text](/img/Joker_issue.JPG)
 
 <h3> 2.3. 82년생 김지영 단어클라우드(단어수 > 3개)  </h3>
 
-![Alt text](/img/82_issue..JPG =250x250)
+![Alt text](/img/82_issue..JPG)
 
 <h3> 2.4. 기생충 단어클라우드(단어수 > 3개)  </h3>
 
-![Alt text](/img/helminth_issue.JPG =250x250)
+![Alt text](/img/helminth_issue.JPG)

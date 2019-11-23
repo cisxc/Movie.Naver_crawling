@@ -22,4 +22,6 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
  ****
 
 <h2> 실행 및 분석 결과 </h2>
-![Alt text](https://github.com/cisxc/R_Naver_crawling/tree/master/img/net_list.JPG)
+
+<img src="https://github.com/cisxc/R_Naver_crawling/tree/master/img/net_list.JPG" width="90%"></img>
+

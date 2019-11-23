@@ -56,3 +56,5 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 <h3> 2.4. 기생충 단어클라우드(단어수 > 3개)  </h3>
 
 ![Alt text](/img/helminth_issue.JPG)
+
+ ****

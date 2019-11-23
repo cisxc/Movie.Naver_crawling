@@ -21,11 +21,11 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 
  ****
  
-<h2> 실행 및 분석 결과 </h2>
-
-<h3> 분석 웹 페이지 </h3>
+<h2> 분석 웹 페이지 </h2>
 
 ![Alt text](/img/net_list.JPG)
+ 
+<h2> 영화 종합분석 (10000개 데이터) </h2>
 
 <h3> 겨울 왕국을 제외한 최근 영화 빈도수와 평점 </h3>
 
@@ -37,7 +37,26 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 
 ![Alt text](/img/Movie_freg.JPG)
 
-<h3> 전체 영화 댓글 단어클라우드(단어수 3개 이상)  </h3>
+<h3> 전체 영화 댓글 단어클라우드(단어수 > 3개상)  </h3>
 
 ![Alt text](/img/Movie_issue.JPG)
+
+
+<h2> 영화 개별 분석 (각 댓글 1000개) </h2>
+
+<h3> 겨울왕국 단어클라우드(단어수 > 3개)  </h3>
+
+![Alt text](/img/frozen_issue.JPG)
+
+<h3> 조커 단어클라우드(단어수 > 3개)  </h3>
+
+![Alt text](/img/Joker_issue.JPG)
+
+<h3> 82년생 김지영 단어클라우드(단어수 > 3개)  </h3>
+
+![Alt text](/img/82_issue..JPG)
+
+<h3> 기생충 단어클라우드(단어수 > 3개)  </h3>
+
+![Alt text](/img/helminth_issue.JPG)
 

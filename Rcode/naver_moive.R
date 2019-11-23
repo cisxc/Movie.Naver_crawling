@@ -68,13 +68,16 @@ word_vector= unlist(reviews.word)
 name = table(all.names)
 film = tapply(as.numeric(all.stars) ,all.names , mean)
 df_film = data.frame(name,film)
+df_film2 <- df_film[c(order(-df_film$Freq)),] 
+df_film3 = head(df_film2,30)
 ####연결끝 
 
 ####그래프 그리기 
-favor =df_film$film
-freq = df_film$Freq
-Region = df_film$all.names
-ggplot(df_film, aes(y = m, x = freq,color = Region),xlim =50) + geom_point()
+favor =df_film3$film
+freq = df_film3$Freq
+Region = df_film3$all.names
+ggplot(df_film3, aes(y = favor, x = freq,color = Region),xlim=500) + geom_point()+
+  xlim(0,800)
 ####그래프 그리기 끝
 
 #영화 빈도 수 별 워드 클라우드 

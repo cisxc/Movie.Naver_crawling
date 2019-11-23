@@ -20,7 +20,7 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 * 워드클라우드를 활용하여 영화의 선호도 및 분위기 분석
 
  ****
-
+ 
 <h2> 실행 및 분석 결과 </h2>
 
 <h3> 분석 웹 페이지 </h3>
@@ -32,3 +32,12 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 * 겨울왕국은 빈도수가 앞도적으로 높아 같이 분석을 할 수 없었다.
 
 ![Alt text](/img/movie_gragh.JPG)
+
+<h3> 영화 단어 클라우드 </h3>
+
+![Alt text](/img/Movie_freg.JPG)
+
+<h3> 전체 영화 댓글 단어클라우드(단어수 3개 이상)  </h3>
+
+![Alt text](/img/Movie_issue.JPG)
+

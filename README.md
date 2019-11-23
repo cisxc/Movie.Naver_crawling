@@ -31,7 +31,8 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 
 <h3> 1.2. 영화 단어 클라우드 </h3>
 
-![Alt text](/img/Movie_freg.JPG)
+
+<center><img src="/img/Movie_freg.JPG" width="50%" height="50%"></center>
 
 <h3> 1.3. 전체 영화 댓글 단어클라우드(단어수 > 3개상)  </h3>
 

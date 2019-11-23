@@ -21,10 +21,6 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 
  ****
  
-<h2> 분석 웹 페이지 </h2>
-
-![Alt text](/img/net_list.JPG)
- 
 <h2> 영화 종합분석 (10000개 데이터) </h2>
 
 <h3> 겨울 왕국을 제외한 최근 영화 빈도수와 평점 </h3>
@@ -41,6 +37,7 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 
 ![Alt text](/img/Movie_issue.JPG)
 
+ ****
 
 <h2> 영화 개별 분석 (각 댓글 1000개) </h2>
 

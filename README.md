@@ -32,3 +32,12 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 * 겨울왕국은 빈도수가 앞도적으로 높아 같이 분석을 할 수 없었다.
 
 ![Alt text](/img/movie_gragh.JPG)
+
+<h3> 영화 단어 클라우드 </h3>
+
+![Alt text](/img/Movie_freg.JPG)
+
+<h3> 전체 영화 댓글 단어클라우드(단어수 3개 이상)  </h3>
+
+![Alt text](/img/Movie_issue.JPG)
+

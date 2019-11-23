@@ -27,3 +27,8 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 
 ![Alt text](/img/net_list.JPG)
 
+<h3> 겨울 왕국을 제외한 최근 영화 빈도수와 평점 </h3>
+
+* 겨울왕국은 빈도수가 앞도적으로 높아 같이 분석을 할 수 없었다.
+
+![Alt text](/img/movie_gragh.JPG)

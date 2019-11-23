@@ -1,5 +1,5 @@
 
-# ÆĞÅ°Áö ÀÎ½ºÅç
+# íŒ¨í‚¤ì§€ ì¸ìŠ¤í†¨
 
  install.packages("rvest")
 
@@ -9,7 +9,7 @@
  install.packages('wordcloud2') 
  install.packages("tidyverse")  
  install.packages("KoNLP")
-# ¶óÀÌºê·¯¸® ºÒ·¯¿À±â
+# ë¼ì´ë¸ŒëŸ¬ë¦¬ ë¶ˆëŸ¬ì˜¤ê¸°
 
 library("rvest")
 
@@ -27,11 +27,11 @@ library("tidyverse")
 library("KoNLP")  
  
  
-# NAVER ¿µÈ­('¸Ş¸®¿Í ¸¶³àÀÇ ²É') ¸®ºä 20ÂÊ±îÁö Å©·Ñ¸µ
+# NAVER ì˜í™”('ë©”ë¦¬ì™€ ë§ˆë…€ì˜ ê½ƒ') ë¦¬ë·° 20ìª½ê¹Œì§€ í¬ë¡¤ë§
 
 
 
-#ÁÖ¼Ò¸¦ º¹»çÇÏ¿© url_base¿¡ ÀúÀå
+#ì£¼ì†Œë¥¼ ë³µì‚¬í•˜ì—¬ url_baseì— ì €ì¥
 useSejongDic()
 
 url_base <- 'https://movie.naver.com/movie/point/af/list.nhn?st=mcode&sword=136873&target=after&page='
@@ -44,7 +44,7 @@ all.names <- c()
 for(page in 1:50){
   
   url <- paste(url_base,page,sep='')
-  # read_html ÇÔ¼ö¸¦ »ç¿ëÇÏ¿© html ÆäÀÌÁö¸¦ htxt º¯¼ö¿¡ ÀúÀå
+  # read_html í•¨ìˆ˜ë¥¼ ì‚¬ìš©í•˜ì—¬ html í˜ì´ì§€ë¥¼ htxt ë³€ìˆ˜ì— ì €ì¥
   
   html <- read_html(url,encoding="CP949")
   
@@ -61,7 +61,7 @@ for(page in 1:50){
   result <- html_nodes(content,xpath='//*[@class="title"]/text()') %>%
     html_text()
   
-  reviews <- gsub("[\r\n\t]","", result) #rÅÂ±×, tÅÂ±× Á¦°Å
+  reviews <- gsub("[\r\n\t]","", result) #ríƒœê·¸, tíƒœê·¸ ì œê±°
   reviews = reviews[reviews != ""]
   #if(length(reviews)==0){break}
   
@@ -73,11 +73,11 @@ for(page in 1:50){
   #print(star)
 }
 #all.reviews
-#µ¥ÀÌÅÍ ¸¸µé±â
+#ë°ì´í„° ë§Œë“¤ê¸°
 all.stars
 all.names 
 all.reviews
-####¹®ÀÚ ºĞ¸®ÇÏ±â 
+####ë¬¸ì ë¶„ë¦¬í•˜ê¸° 
 
 reviews.word <- sapply(all.reviews, extractNoun, USE.NAMES = F)
 
@@ -92,7 +92,7 @@ film
 name
 df_film = data.frame(name,film)
 ###########################
-#±×·¡ÇÁ ±×¸®±â 
+#ê·¸ë˜í”„ ê·¸ë¦¬ê¸° 
 
 favor =df_film$film
 freq = df_film$Freq
@@ -103,7 +103,7 @@ ggplot(df_film, aes(y = m, x = freq,color = Region),xlim =50) + geom_point()
 
 #############################
 
-#¿öµå Å¬¶ó¿ìµå 
+#ì›Œë“œ í´ë¼ìš°ë“œ 
 all.names 
 name = table(all.names)
 name=sort(name, decreasing=T)
@@ -115,7 +115,7 @@ wordcloud(names(name), freq=name, scale=c(5,.5), rot.per= .25, min.freq=1, rando
 ###########################
 
 
-#¿öµå Å¬¶ó¿ìµå 2
+#ì›Œë“œ í´ë¼ìš°ë“œ 2
 word_vector <- Filter(function(x){nchar(x)>=3}, word_vector)
 name = table(word_vector)
 name

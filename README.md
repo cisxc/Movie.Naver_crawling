@@ -63,7 +63,7 @@ www.movie.naver.com와 R를 이용하여 분석을 해본다.
 
 ![Alt text](/img/helminth_issue.JPG)
 
-<h3> 2.4. 신의한수 귀수편 단어클라우드(단어수 > 3개)  </h3>
+<h3> 2.5. 신의한수 귀수편 단어클라우드(단어수 > 3개)  </h3>
 
 ![Alt text](/img/god_issue.JPG)
 
